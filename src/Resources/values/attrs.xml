@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <declare-styleable name="ChipView">
+    <attr name="chip_text" format="string"/>
+    <attr name="chip_icon" format="string|reference"/>
+    <attr name="enable_icon" format="boolean"/>
+    <attr name="closeable" format="boolean"/>
+    <attr name="chip_backgroundColor" format="color"/>
+    <attr name="chip_selectable" format="boolean"/>
+    <attr name="chip_selectedBackgroundColor" format="color"/>
+    <attr name="chip_text_color" format="color"/>
+    <attr name="chip_selected_text_color" format="color"/>
+    <attr name="chip_close_color" format="color"/>
+    <attr name="chip_selected_close_color" format="color"/>
+    <attr name="chip_cornerRadius" format="dimension"/>
+    <attr name="chip_strokeSize" format="dimension"/>
+    <attr name="chip_strokeColor" format="color"/>
+    <attr name="chip_iconTextColor" format="color"/>
+    <attr name="chip_iconText" format="string"/>
+    <attr name="chip_iconTextBackgroundColor" format="color"/>
+  </declare-styleable>
+  <declare-styleable name="ChipTextView">
+    <attr name="chip_backgroundColor" format="color"/>
+    <attr name="chip_selectable" format="boolean"/>
+    <attr name="chip_selectedBackgroundColor" format="color"/>
+    <attr name="chip_text_color" format="color"/>
+    <attr name="chip_selected_text_color" format="color"/>
+    <attr name="chip_cornerRadius" format="dimension"/>
+    <attr name="chip_strokeSize" format="dimension"/>
+    <attr name="chip_strokeColor" format="color"/>
+  </declare-styleable>
+</resources>
